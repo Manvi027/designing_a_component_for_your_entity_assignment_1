@@ -1,0 +1,49 @@
+ .usercard {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    background-color: #d79595;
+  }
+  
+  .usercard-content {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .usercard-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 80%;
+    margin-right: 20px;
+  }
+  
+  .usercard-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .usercard-details h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .usercard-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #1b1818;
+  }
+   
+
+   /* .card{
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.pfp{
+    border-radius: 30%;
+} */
